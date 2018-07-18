@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS ASSETS;
+CREATE TABLE ASSETS (isbn13 INT PRIMARY KEY,  title_group_id VARCHAR(15), asset_status VARCHAR(100) , publishing_status VARCHAR(100), title VARCHAR(500), sub_title VARCHAR(500));
